@@ -1,0 +1,39 @@
+version: "3.8"
+services:
+  user-service-db:
+    image: postgres
+    environment:
+      POSTGRES_USER: userdb_user
+      POSTGRES_PASSWORD: userdb_pass
+      POSTGRES_DB: userdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - user-service-db-volume:/var/lib/postgresql/data
+
+  product-service-db:
+    image: postgres
+    environment:
+      POSTGRES_USER: productdb_user
+      POSTGRES_PASSWORD: productdb_pass
+      POSTGRES_DB: productdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - product-service-db-volume:/var/lib/postgresql/data
+
+  adminer-user:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+  adminer-product:
+    image: adminer
+    restart: always
+    ports:
+      - 8090:8080
+
+volumes:
+  user-service-db-volume:
+  product-service-db-volume:
