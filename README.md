@@ -1,6 +1,6 @@
 # GlamSeven
 
-## This is a [Documentation](https://documenter.postman.com/preview/30674802-41fa2aab-ff1e-4d40-9447-b4e9bc17a95d?environment=&versionTag=latest&apiName=CURRENT&version=latest&documentationLayout=classic-double-column&documentationTheme=dark&logo=https%3A%2F%2Fres.cloudinary.com%2Fpostman%2Fimage%2Fupload%2Ft_team_logo%2Fv1%2Fteam%2Fanonymous_team&logoDark=https%3A%2F%2Fres.cloudinary.com%2Fpostman%2Fimage%2Fupload%2Ft_team_logo%2Fv1%2Fteam%2Fanonymous_team&right-sidebar=303030&top-bar=FFFFFF&highlight=FF6C37&right-sidebar-dark=303030&top-bar-dark=212121&highlight-dark=FF6C37) for the api using Postman.
+## This is a [Documentation](https://documenter.getpostman.com/view/30674802/2sA2rCUMhH) for the api using Postman.
 
 
 
